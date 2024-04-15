@@ -1,0 +1,51 @@
+body {
+    background-color: azure;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.row6 {
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    font-size: 30px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+}
+
+.operator {
+    background-color: rgb(163, 163, 163);
+}
+
+.operate {
+    background-color: rgb(127, 128, 199);
+}
+
+span {
+    margin-bottom: 5px;
+}
